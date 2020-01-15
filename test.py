@@ -13,7 +13,7 @@ from deepmoji.finetuning import (
     load_benchmark,
     finetune)
 
-DATASET_PATH = '../data/testpic.pkl'
+DATASET_PATH = '../data/testpic.pickle'
 nb_classes = 2
 
 with open('../model/vocabulary.json', 'r') as f:
